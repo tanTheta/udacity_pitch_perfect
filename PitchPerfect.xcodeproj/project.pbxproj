@@ -11,7 +11,6 @@
 		3FBD449521EBE4270028EA8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD449421EBE4270028EA8A /* AppDelegate.swift */; };
 		3FBD449721EBE4340028EA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD449621EBE4340028EA8A /* Assets.xcassets */; };
 		3FBD449D21EBE4430028EA8A /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD449821EBE4430028EA8A /* RecordSoundsViewController.swift */; };
-		3FBD449E21EBE4430028EA8A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD449921EBE4430028EA8A /* Info.plist */; };
 		3FBD449F21EBE4430028EA8A /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD449A21EBE4430028EA8A /* playsoundsviewcontroller-audio.swift */; };
 		3FBD44A121EBE4430028EA8A /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD449C21EBE4430028EA8A /* PlaySoundsViewController.swift */; };
 		3FBD44A321EBE4590028EA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBD44A221EBE4590028EA8A /* Main.storyboard */; };
@@ -33,7 +32,6 @@
 		3FBD448421EBE3740028EA8A /* PitchPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBD448821EBE3740028EA8A /* PitchPerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectTests.swift; sourceTree = "<group>"; };
 		3FBD448A21EBE3740028EA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FBD449321EBE4260028EA8A /* PitchPerfect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PitchPerfect-Bridging-Header.h"; sourceTree = "<group>"; };
 		3FBD449421EBE4270028EA8A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FBD449621EBE4340028EA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FBD449821EBE4430028EA8A /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +40,7 @@
 		3FBD449C21EBE4430028EA8A /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		3FBD44A221EBE4590028EA8A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3FBD44A421EBE45F0028EA8A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FBD451321ED84BF0028EA8A /* PitchPerfect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PitchPerfect-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +88,9 @@
 				3FBD449A21EBE4430028EA8A /* playsoundsviewcontroller-audio.swift */,
 				3FBD449C21EBE4430028EA8A /* PlaySoundsViewController.swift */,
 				3FBD449821EBE4430028EA8A /* RecordSoundsViewController.swift */,
+				3FBD451321ED84BF0028EA8A /* PitchPerfect-Bridging-Header.h */,
 				3FBD449421EBE4270028EA8A /* AppDelegate.swift */,
 				3FBD449621EBE4340028EA8A /* Assets.xcassets */,
-				3FBD449321EBE4260028EA8A /* PitchPerfect-Bridging-Header.h */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -189,7 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FBD449E21EBE4430028EA8A /* Info.plist in Resources */,
 				3FBD449721EBE4340028EA8A /* Assets.xcassets in Resources */,
 				3FBD44A521EBE45F0028EA8A /* LaunchScreen.storyboard in Resources */,
 				3FBD44A321EBE4590028EA8A /* Main.storyboard in Resources */,
