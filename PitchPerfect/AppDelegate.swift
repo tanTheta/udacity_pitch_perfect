@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  PitchPerfect
 //
-//  Created by Tanvi Roy on 1/13/19.
-//  Copyright © 2019 Tanvi Roy. All rights reserved.
+//  Created by Tanvi Roy on 12/20/18.
+//  Copyright © 2018 Tanvi Roy. All rights reserved.
 //
 
 import UIKit
