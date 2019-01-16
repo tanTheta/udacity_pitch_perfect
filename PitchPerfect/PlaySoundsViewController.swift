@@ -27,21 +27,23 @@ class PlaySoundsViewController: UIViewController {
     
 
     
-    enum ButtonType: Int { case slow = 0, fast, chipmunk, vader, echo, reverb }
+    enum ButtonType: Int {
+        case Slow = 0, Fast, Chipmunk, Vader, Echo, Reverb
+    }
     
     @IBAction func playSoundForButton(_ sender: UIButton){
         switch(ButtonType(rawValue: sender.tag)!) {
-        case .slow:
+        case .Slow:
             playSound(rate: 0.5)
-        case .fast:
+        case .Fast:
             playSound(rate: 1.5)
-        case .chipmunk:
+        case .Chipmunk:
             playSound(pitch: 1000)
-        case .vader:
+        case .Vader:
             playSound(pitch: -1000)
-        case .echo:
+        case .Echo:
             playSound(echo: true)
-        case .reverb:
+        case .Reverb:
             playSound(reverb: true)
         }
         configureUI(.playing)
@@ -55,13 +57,10 @@ class PlaySoundsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupAudio()
-        snailButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
-        chipmunkButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
-        rabbitButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
-        vaderButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
-        echoButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
-        reverbButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
-        stopButton.imageView?.contentMode = UIViewContentMode.scaleAspectFit
+        let arrayOfButtons = [snailButton, chipmunkButton, rabbitButton, vaderButton, echoButton, reverbButton, stopButton]
+        for button in arrayOfButtons {
+            button?.imageView?.contentMode = .scaleAspectFit
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
